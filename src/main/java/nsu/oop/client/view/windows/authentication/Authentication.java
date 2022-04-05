@@ -20,8 +20,8 @@ public class Authentication extends JFrame {
         user = new JLabel("Username");
         pass = new JLabel("Password");
 
-        nameField = new JTextField("Kirill");
-        passField = new JPasswordField("0000");
+        nameField = new JTextField();
+        passField = new JPasswordField();
         button = new JButton(windowTitle);
         button.setPreferredSize(new Dimension(50, 150));
         switch (windowTitle) {
