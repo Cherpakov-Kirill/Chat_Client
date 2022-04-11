@@ -1,6 +1,9 @@
 # TCP/IP Chat
+UI chat program with auth. and dialogues with online users.
+Client-Server Application.
+UI: Java Swing
 
-###Protocol
+## Protocol
 
 1. Message **"/auth login password"** needs for authentication any user
 2. Auth-messages:
